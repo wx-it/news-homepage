@@ -1,17 +1,26 @@
 import React from "react";
 import "./sideBar.css";
+import { useState } from "react";
 
 const SideBar = ({ Logo, Menu, Close }) => {
+
+  const [toggle, setToggle] = useState(false)
+
+  const toggleMenu = ()=>{
+    setToggle(toggle => !toggle)
+    console.log(toggle)
+  }
+
   return (
     <>
       <nav>
         <Logo />
-        <button>
+        <button onClick={toggleMenu}>
           <Menu />
         </button>
       </nav>
-      <div className="mobile-sideBar">
-        <button>
+      <div className={toggle ? "mobile-sideBar" : "mobile-sideBar-active"}>
+        <button className="close-btn" onClick={toggleMenu} >
           <Close />
         </button>
         <div className="links">
