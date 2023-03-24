@@ -8,7 +8,6 @@ const SideBar = ({ Logo, Menu, Close }) => {
 
   const toggleMenu = ()=>{
     setToggle(toggle => !toggle)
-    console.log(toggle)
   }
 
   return (

@@ -6,6 +6,11 @@ nav {
   width: 100%;
 }
 
+nav button{
+    border: none;
+    background-color: transparent;
+}
+
 .mobile-sideBar {
   position: fixed;
   right: 0;

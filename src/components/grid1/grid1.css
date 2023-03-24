@@ -1,0 +1,33 @@
+.grid1{
+    width: 100%;
+}
+
+.grid1 img{
+    width: 100%;
+}
+
+.grid1 h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 0;
+}
+
+.grid1 p{
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.grid1 button{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    padding: 1rem 1.75rem;
+    margin-top: .5rem;
+}
