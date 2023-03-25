@@ -24,7 +24,7 @@ const SideBar = ({ Logo, Menu, Close }) => {
           <Menu />
         </button>
       </nav>
-      <div className={toggle ? "mobile-sideBar" : "mobile-sideBar-active"}>
+      <div className={toggle ? "mobile-sideBar-active" : "mobile-sideBar"}>
         <button className="close-btn" onClick={toggleMenu}>
           <Close />
         </button>
