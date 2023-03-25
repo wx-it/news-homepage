@@ -64,7 +64,7 @@ nav button {
   display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
   .mobile-sideBar {
     display: none;
   }
@@ -79,8 +79,8 @@ nav button {
 
   .desktop-links a {
     text-decoration: none;
-    color: hsl(240, 100%, 5%);
-    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    font-size: 16px;
     font-weight: 400;
   }
 }
