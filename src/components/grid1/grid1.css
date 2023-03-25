@@ -1,33 +1,75 @@
-.grid1{
-    width: 100%;
+.grid1 {
+  width: 100%;
 }
 
-.grid1 img{
-    width: 100%;
+.grid1 img {
+  width: 100%;
 }
 
-.grid1 h1{
-    font-size: 40px;
-    font-weight: 800;
-    color: hsl(240, 100%, 5%);
-    margin-bottom: 0;
+.grid1 h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: 0;
 }
 
-.grid1 p{
-    color: hsl(236, 13%, 42%);
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.5rem;
+.grid1 p {
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
 }
 
-.grid1 button{
+.grid1 button {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  padding: 1rem 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.desktop-image {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .grid-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .grid-content h1{
+    width: 35%;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .grid-content div{
+    width: 45%;
+    margin: 0;
+  }
+
+  .grid-content div p{
+    font-size: 18px;
+  }
+
+  .grid1 button {
     color: white;
-    font-size: 15px;
-    letter-spacing: 0.25rem;
-    font-weight: 700;
-    font-family: inherit;
-    background-color: hsl(5, 85%, 63%);
-    border: none;
-    padding: 1rem 1.75rem;
-    margin-top: .5rem;
+    padding: 1.25rem 2rem;
+  }
+  
+
+  .mobile-image {
+    display: none;
+  }
+  .desktop-image {
+    display: block;
+    width: 100%;
+  }
 }

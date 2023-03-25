@@ -1,33 +1,52 @@
-.grid2{
-    background-color: hsl(240, 100%, 5%);
-    padding: 1.5rem 1rem 1rem 1rem;
-    margin-top: 5rem;
+.grid2 {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin-top: 5rem;
 }
 
-.grid2 h2{
-    color: hsl(35, 77%, 62%);
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 0;
+.grid2 h2 {
+  color: hsl(35, 77%, 62%);
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
 }
 
-.grid2 div{
-    border-bottom: 1px hsl(233, 8%, 79%) solid;
-    padding-bottom: .5rem;
+.grid2 div {
+  border-bottom: 1px hsl(233, 8%, 79%) solid;
+  padding-bottom: 0.5rem;
 }
 
-.grid2 div:last-child{
-    border: none;
-    padding-bottom: 0;
+.grid2 div:last-child {
+  border: none;
+  padding-bottom: 0;
 }
 
-.grid2 div h3{
-    color: hsl(36, 100%, 99%);
-    font-size: 20px;
+.grid2 div h3 {
+  color: hsl(36, 100%, 99%);
+  font-size: 20px;
 }
 
-.grid2 div p{
-    color:  hsl(233, 8%, 79%);
-    font-size: 16px;
-    line-height: 1.75rem;
+.grid2 div p {
+  color: hsl(233, 8%, 79%);
+  font-size: 16px;
+  line-height: 1.75rem;
+}
+
+@media screen and (min-width: 600px) {
+  .grid2{
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .grid2 h2{
+    font-size: 48px;
+  }
+
+  .grid2 div{
+    padding: 0;
+  }
+
+  .grid2 div p{
+    max-width: 80%;
+  }
 }

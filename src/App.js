@@ -6,9 +6,10 @@ import { ReactComponent as Logo } from "./assets/images/logo.svg";
 import { ReactComponent as Menu } from "./assets/images/icon-menu.svg";
 import { ReactComponent as Close } from "./assets/images/icon-menu-close.svg";
 import mobileGrid1Image from "./assets/images/image-web-3-mobile.jpg";
-import retro from "./assets/images/image-retro-pcs.jpg"
-import topLaptops from "./assets/images/image-top-laptops.jpg"
-import gaming from "./assets/images/image-gaming-growth.jpg"
+import desktopGrid1Image from "./assets/images/image-web-3-desktop.jpg";
+import retro from "./assets/images/image-retro-pcs.jpg";
+import topLaptops from "./assets/images/image-top-laptops.jpg";
+import gaming from "./assets/images/image-gaming-growth.jpg";
 
 function App() {
   return (
@@ -17,8 +18,14 @@ function App() {
         <SideBar Logo={Logo} Menu={Menu} Close={Close} />
       </header>
       <main>
-        <Grid1 mobileGrid1Image={mobileGrid1Image} />
-        <Grid2 />
+        <div className="desktop-row" >
+          <Grid1
+            mobileGrid1Image={mobileGrid1Image}
+            desktopGrid1Image={desktopGrid1Image}
+          />
+          <Grid2 />
+        </div>
+
         <Grid3 retro={retro} topLaptops={topLaptops} gaming={gaming} />
       </main>
     </>

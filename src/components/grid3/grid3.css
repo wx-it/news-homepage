@@ -1,43 +1,47 @@
-.grid3{
-    margin: 5rem 0;
+.grid3 {
+  margin: 5rem 0;
 }
 
-.card{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.grid3 img{
-    width: 30%;
-    height: 100%;
+.grid3 img {
+  width: 30%;
+  height: 100%;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.content span{
-    color: hsl(233, 8%, 79%);
-    font-size: 30px;
-    font-weight: 700;
+.content span {
+  color: hsl(233, 8%, 79%);
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.content h3{
-    margin: 0;
-    color: hsl(240, 100%, 5%);
-    margin-top: 0.25rem;
+.content h3 {
+  margin: 0;
+  color: hsl(240, 100%, 5%);
+  margin-top: 0.25rem;
 }
 
-.content p{
-    color: hsl(236, 13%, 42%);
-    font-size: 15px;
-    margin-top: 0.25rem;
-    line-height: 1.5rem;
+.content p {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  margin-top: 0.25rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  
 }
