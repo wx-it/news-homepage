@@ -43,6 +43,12 @@
     font-size: 48px;
   }
 
+  .grid2 h3:hover{
+    color: hsl(35, 77%, 62%);
+    transition: all 0.5s linear;
+    cursor: pointer;
+  }
+
   .grid2 div{
     padding: 0;
   }

@@ -83,4 +83,8 @@ nav button {
     font-size: 16px;
     font-weight: 400;
   }
+
+  .desktop-links a:hover{
+    color: hsl(5, 85%, 63%);
+  }
 }

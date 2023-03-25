@@ -47,4 +47,10 @@
     display: flex;
     gap: 2rem;
   }
+
+  .content h3:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    transition: all 0.5s linear;
+  }
 }
